@@ -21,15 +21,15 @@ The project allows users to:
 ## Screenshots
 ### Figure 1: Webpage with the search bar
 
-![Webpage with the search bar](/images/screeshot1.jpg)
+![Webpage with the search bar](src/images/screeshot1.jpg)
 
 ### Figure 2: Webpage after the result has been fetched and displayed
 
-![Webpage with fetched results](/images/screeshot2.jpg)
+![Webpage with fetched results](src/images/screeshot2.jpg)
 
 ### Figure 3: Sportify dashboard showing the Playlist create from the project page
 
-![Sportify dashboard with created Playlist](/images/screeshot3.jpg)
+![Sportify dashboard with created Playlist](src/images/screeshot3.jpg)
 
 
 ## Future work
