@@ -1,13 +1,14 @@
 .Header { grid-area: header; 
   background-color: beige;
-  height: 100px;
+  height: 75px;
+  
   padding-left: 10px;
   
   }
 .Banner { grid-area: banner; 
   background-color: yellow;
   height: 200px;
-  background-image: url("../JamProject/images/banner2.jpg");
+  background-image: url("../images/banner.jpg");
   font-size: 32px;
   text-align: center;
   
@@ -19,12 +20,15 @@
   text-align: center;
 }
 .Left { grid-area: leftCol; 
-  border-right: 2px blue solid;
+  background-color: white;
+  border-right: 2px beige solid;
   padding-left: 10px;
+  
   height: auto;
 }
 .Right { grid-area: rightCol;
-  border-left: 2px blue solid;
+  background-color: white;
+  border-left: 2px beige solid;
   padding-left: 10px;
   height: auto;
 }
