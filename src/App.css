@@ -1,38 +1,54 @@
-.App {
+.Header { grid-area: header; 
+  background-color: beige;
+  height: 100px;
+  padding-left: 10px;
+  
+  }
+.Banner { grid-area: banner; 
+  background-color: yellow;
+  height: 200px;
+  background-image: url("../JamProject/images/banner2.jpg");
+  font-size: 32px;
+  text-align: center;
+  
+}
+.SearchBar{
+  grid-area: searchBar;
+  background-color: beige;
+  height: 50px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Left { grid-area: leftCol; 
+  border-right: 2px blue solid;
+  padding-left: 10px;
+  height: auto;
+}
+.Right { grid-area: rightCol;
+  border-left: 2px blue solid;
+  padding-left: 10px;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Footer { grid-area: footer; 
+  background-color: beige;
+  height: 50px;
+  text-align: center;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App {
+  display: grid;
+  
+  grid-template-areas:
+    'header header'
+    'banner banner'
+    'searchBar searchBar'
+    'leftCol rightCol'
+    'footer footer';
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  height: auto;
+  row-gap: 10px;
+  
 }
